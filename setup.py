@@ -9,7 +9,7 @@ setup(
     author='Julian Salazar',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    entry_points = {
+    entry_points={
         'console_scripts': ['mlm=mlm.cmds:main'],
     },
 
@@ -18,7 +18,7 @@ setup(
         'regex',
         'sacrebleu',
         'mosestokenizer',
-        'transformers~=3.3.1'
+        'transformers==4.12.2'
     ],
 
     extras_require={
